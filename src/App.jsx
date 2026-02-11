@@ -81,9 +81,19 @@ export default function App() {
     <div className="container py-4" style={{ maxWidth: 960 }}>
       <header className="d-flex justify-content-between align-items-start align-items-md-center gap-3 flex-wrap">
         <div className="d-flex align-items-center gap-3 flex-wrap">
-          <div>
-            <h1 className="h3 mb-0">GastoZen</h1>
-            <div className="text-body-secondary">Sin internet • Instalable • Rápido</div>
+          <div className="d-flex align-items-center gap-2">
+            <img
+              src="/icon-192.png"
+              width="44"
+              height="44"
+              alt=""
+              className="rounded"
+              style={{ objectFit: 'cover' }}
+            />
+            <div>
+              <h1 className="h3 mb-0">GastoZen</h1>
+              <div className="text-body-secondary">Sin internet • Instalable • Rápido</div>
+            </div>
           </div>
           <span className={"badge " + (navigator.onLine ? 'text-bg-success' : 'text-bg-secondary')}>
             {navigator.onLine ? 'Online' : 'Offline'}
