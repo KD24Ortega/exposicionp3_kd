@@ -169,7 +169,6 @@ export default function App() {
       </main>
 
       <footer className="mt-4 text-body-secondary">
-        <small>Demo rápida: registra un movimiento, recarga y prueba sin internet. Tus datos siguen aquí.</small>
       </footer>
     </div>
   )
